@@ -29,7 +29,7 @@ const consoleFlags = Ldate | Ltime | Lmicroseconds | Llevel | Lfile
 
 var (
 	console  = NewLogger(os.Stderr, "Console", consoleFlags)
-	logLevel = DEBUG
+	logLevel = INFO
 )
 
 func SetConsoleLogLevel(level int) {
